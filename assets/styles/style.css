@@ -1,5 +1,8 @@
 body {
   font-family: 'Quicksand', sans-serif;
+
+  margin: 0;
+  padding: 0;
 }
 
 h2,
@@ -70,4 +73,8 @@ nav {
   background-color: #00c8eb;
   text-align: center;
   color: white;
+}
+
+main {
+  padding: 20px;
 }

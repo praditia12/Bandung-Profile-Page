@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
 
@@ -32,17 +36,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-nav li {
-  display: inline;
-  list-style-type: none;
-  margin-right: 20px;
-}
- 
-nav {
-   background-color: #00a2c6;
-   padding: 5px;
-}
-
 .profile header {
   text-align: center;
 }
@@ -75,6 +68,31 @@ nav {
   color: white;
 }
 
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+ 
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+}
+
 main {
   padding: 20px;
+
+  overflow: auto;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+
+  padding-left: 20px;
 }

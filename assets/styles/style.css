@@ -56,7 +56,6 @@ nav a:hover {
     border-radius: 5px;
 
     padding: 20px;
-    margin-top: 20px;
 }
 
 .jumbotron {
@@ -67,10 +66,15 @@ nav a:hover {
     color: white;
 }
 
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+
+    gap: 2rem;
+}
+
 nav li {
-    display: inline;
     list-style-type: none;
-    margin-right: 20px;
 }
 
 nav {
@@ -84,29 +88,44 @@ nav {
 main {
     padding: 20px;
 
-    overflow: auto;
+    display: flex;
+    gap: 1.5rem;
 }
 
 #content {
-    float: left;
-    width: 75%;
+    flex: 5;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
 }
 
 aside {
-    float: right;
-    width: 25%;
-
-    padding-left: 20px;
+    flex: 1;
 }
 
 header {
     display: inline;
 }
 
-@media screen and (max-width: 1000px) {
-    #content,
-    aside {
-        width: 100%;
-        padding: 0;
+/* Perangkat dengan lebar layar 1200px dan di bawahnya */
+@media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column nowrap;
+    }
+
+    main aside {
+        align-self: center;
+    }
+}
+
+/* Perangkat dengan lebar layar 768px dan di bawahnya */
+@media screen and (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    main aside {
+        align-self: stretch;
     }
 }

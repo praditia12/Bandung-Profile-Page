@@ -22,3 +22,7 @@ git clone https://github.com/praditia12/Bandung-Profile-Page.git
 ### 2. Buka di text editor.
 
 ### 3. Jalankan proyek pada browser untuk melihat hasilnya.
+
+## Publish
+
+https://praditia12.github.io/Bandung-Profile-Page/

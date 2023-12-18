@@ -10,6 +10,10 @@ Proyek ini merupakan proses latihan dari kelas Dasar Pemrograman Web Dicoding, d
 
 Proyek ini dibuat dengan tujuan untuk memahami dan mengimplementasikan konsep dasar pemrograman web, serta memperdalam pengetahuan saya dalam penggunaan Git dan GitHub.
 
+## Publish
+
+https://praditia12.github.io/Bandung-Profile-Page/
+
 ## Usage
 
 ### 1. Clone repositori ke local.
@@ -23,6 +27,3 @@ git clone https://github.com/praditia12/Bandung-Profile-Page.git
 
 ### 3. Jalankan proyek pada browser untuk melihat hasilnya.
 
-## Publish
-
-https://praditia12.github.io/Bandung-Profile-Page/
